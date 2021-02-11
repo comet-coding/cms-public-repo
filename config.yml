@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: comet-coding/cms-public-repo
-
+  open_authoring: false
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
