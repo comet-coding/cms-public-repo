@@ -2,7 +2,7 @@ backend:
   name: github
   branch: main
   repo: comet-coding/cms-public-repo
-  open_authoring: false
+  open_authoring: true
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -10,6 +10,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 
